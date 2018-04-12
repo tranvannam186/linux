@@ -1,4 +1,4 @@
-1. cài ??t httpd và ch?y 
+cài ??t httpd và ch?y 
 -systemctl install httpd
 -systemctl status httpd
 -systemctl start httpd
