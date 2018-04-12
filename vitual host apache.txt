@@ -1,0 +1,44 @@
+1. cài ??t httpd và ch?y 
+-systemctl install httpd
+-systemctl status httpd
+-systemctl start httpd
++ t?t firewall: systemctl stop firewalld
+2. có th? t?o th? m?c l?u tr?. có th? t?o ? b?t c? ?âu nh?ng th??ng các th? m?c c?a trang web ???c ??t ? trong /var/www th? m?c. b?t ??u v?i th? m?c ???c ??t tên theo URL c?a trang web.
+
+ 	?? t?o th? m?c cho example.com:
+-mkdir /var/www/example.com
+-mkdir /var/www/example.com/html
+note: th? m?c /var/www/example.com/html là n?i trang web c?a b?n s? ???c ??t . th? m?c này g?i là "root tài li?u"
+	thay ??i quy?n s? h?u c?u các th? m?c này cho ng??i dùng apache:
+	- chown -R apache:apche /var/www/example.com
+	?? t?i lên các t?p tin trang web qua FTP, th? m?c html s? c?n ph?i s? h?u b?i ng??i dùng.
+	exit: ng??i dùng tên Nam d?ng nh?p qua FTP:
+	- chown Nam:Nam /var/www/example.com/html
+3. thêm t?p ch?  m?c :
+t?o th? m?c index.html trong tài li?u g?c:
+-vi /var/www/example.com/html/index.html
+thêm vào th? m?c index.html:
+<html>
+
+  <head>
+    <title>Welcome to your new website!</title>
+  </head>
+
+  <body>
+    <p>Hello, your virtual host is set up correctly.</p>
+  </body>
+
+</html>
+ 4. c?u hình t?p apache:
+- vi /etc/httpd/conf.d/example.com.conf
+thêm vào th? m?c:
+<VirtualHost *:80>
+ ServerName example.com
+ ServerAlias www.example.com
+ DocumentRoot /var/www/example.com/html
+</VirtualHost>
+	thoát ra và kh?i ??ng l?i apache:
+- systemctl restart httpd
+5. ki?m tra
+gõ thanh tìm ki?m:example.com
+ 
