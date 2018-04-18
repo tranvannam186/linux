@@ -1,11 +1,12 @@
 Báo cáo: TÌm hiểu và cài đặt Wordpress trên Centos 7.
 =====================================================
 
-1. Các nội dung chính
+## 1. Các nội dung chính
 ---------------------
 
 -   Khái niệm Wordpress.
--   Cài đặt Wordpress. \#\#2.Khái niệm Wordpress.
+-   Cài đặt Wordpress. 
+## 2.Khái niệm Wordpress.
 -   Wordpress:
 
 là một phần mềm nguồn mở (Open Source Software) được viết bằng ngôn ngữ
@@ -21,8 +22,9 @@ Management System) vượt trội để hỗ trợ người dùng tạo ra nhi�
 website khác nhau như blog, website tin tức/tạp chí, giới thiệu doanh
 nghiệp, bán hàng – thương mại điện tử, thậm chí với các loại website có
 độ phức tạp cao như đặt phòng khách sạn, thuê xe, đăng dự án bất động
-sản. \#\#2.2 Vì sao Wordpress được nhiều người lựa chọn sử dụng? - Dễ sử
-dụng
+sản. 
+## 2.2 Vì sao Wordpress được nhiều người lựa chọn sử dụng? 
+-Dễ sử dụng
 
     WordPress được phát triển nhằm phục vụ đối tượng người dùng phổ thông, không có nhiều kiến thức về lập trình website nâng cao
 
