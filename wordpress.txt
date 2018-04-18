@@ -1,4 +1,4 @@
-#Báo cáo: TÌm hiểu và cài đặt Wordpress trên Centos 7.
+﻿#Báo cáo: TÌm hiểu và cài đặt Wordpress trên Centos 7.
 ##1. Các nội dung chính
 - Khái niệm Wordpress.
 - Cài đặt Wordpress.
@@ -10,21 +10,21 @@ là một mã nguồn mở bằng ngôn ngữ PHP để hỗ trợ tạo blog c�
 
 WordPress đã được xem như là một hệ quản trị nội dung (CMS – Content Management System) vượt trội để hỗ trợ người dùng tạo ra nhiều thể loại website khác nhau như blog, website tin tức/tạp chí, giới thiệu doanh nghiệp, bán hàng – thương mại điện tử, thậm chí với các loại website có độ phức tạp cao như đặt phòng khách sạn, thuê xe, đăng dự án bất động sản.
 ##2.2 Vì sao Wordpress được nhiều người lựa chọn sử dụng?
--Dễ sử dụng
+- Dễ sử dụng
 
 	WordPress được phát triển nhằm phục vụ đối tượng người dùng phổ thông, không có nhiều kiến thức về lập trình website nâng cao
 
 
 
--Cộng đồng hỗ trợ đông đảo
+- Cộng đồng hỗ trợ đông đảo
 
 	Wordpress là một mã nguồn CMS mở phổ biến nhất thế giới, điều này cũng có nghĩa là bạn sẽ được cộng đồng người sử dụng WordPress hỗ trợ bạn các khó khăn gặp phải trong quá trình sử dụng.
 
--Nhiều gói giao diện có sẵn
+- Nhiều gói giao diện có sẵn
 
 	Wordpress có hệ thống Theme đồ sộ, nhiều theme chuyên nghiệp có khả năng SEO tốt.
 	Giúp cho bạn dễ dàng chọn lựa, bố trí hình ảnh, màu sắc cho trang web của bạn một cách đẹp mắt ...
--Nhiều widget hỗ trợ
+- Nhiều widget hỗ trợ
 
 	-Wordpress có 23 Widget như:
 	Thống kê số truy nhập blog
@@ -34,14 +34,14 @@ WordPress đã được xem như là một hệ quản trị nội dung (CMS –
 	Liệt kê các Trang
 	Danh sách các liên kết
 	Liệt kê số bài viết trong từng tháng
--Dễ phát triển
+- Dễ phát triển
 
 	Wordpress cung cấp cho bạn rất nhiều hàm viết sẵn, cho phép bạn tùy ý phát triển website của mình một cách chuyên nghiệp
 	WordPress là một mã nguồn mở nên bạn có thể dễ dàng hiểu được cách hoạt động của nó và phát triển thêm các tính năng
--Hỗ trợ nhiều ngôn ngữ
+- Hỗ trợ nhiều ngôn ngữ
 
 	Được phát triển bằng nhiều ngôn ngữ (hỗ trợ tiếng việt)
--Tính tùy biến trang website cao
+- Tính tùy biến trang website cao
 
 	Wordpress cho phép bạn có thể điều chỉnh trang website theo ý muốn của bạn, không nhất thiết đó phải là một trang blog, mà nó còn có thể trở thành một trang web về bán hàng, một trang web đại diện cho công ty bằng việc kết hợp các theme được hỗ trợ cùng các widget có sẵn
 ##3.Điều kiện cài đặt wordpress trên Centos7:
