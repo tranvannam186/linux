@@ -1,8 +1,7 @@
 # Hướng dẫn cài đặt WordPress trên CentOS 7
-=======================================
 
 ## Giới thiệu
-_________________________________
+
 WordPress là một web mã nguồn mở miễn phí và công cụ viết blog sử dụng PHP và MySQL. WordPress hiện là CMS phổ biến nhất (Content Management System) trên Internet, và có hơn 20.000 plugins để mở rộng chức năng của nó. Điều đó khiến cho WordPress là một lựa chọn tuyệt vời để có được một trang web sử dụng một cách nhanh chóng và dễ dàng.
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn để có được một trang WordPress thiết lập với máy chủ web Apache trên CentOS 7.
