@@ -11,7 +11,7 @@ Trước khi thực hiện tiếp những hướng dẫn bên dưới, bạn c�
 
 Chúng ta cần phải có 1 cụm LAMP (Linux, Apache, MySQL, and PHP) được cài đặt trên máy chủ CentOS 7. Nếu bạn chưa cài đặt những thành phần này, bạn có thể tham khảo bài Hướng dẫn cài đặt Linux, Apache, MySQL, PHP (LAMP) kết hợp trên CentOS 7.
 
-##### Bước một – Tạo cơ sở dữ liệu MySQL và User cho WordPress
+#### Bước một – Tạo cơ sở dữ liệu MySQL và User cho WordPress
 Bước đầu tiên sẽ là sự chuẩn bị. WordPress sử dụng một cơ sở dữ liệu quan hệ để quản lý thông tin trang web và người sử dụng. Chúng ta đã có MariaDB đã được cài đặt, bạn cần tạo một cơ sở dữ liệu và một tài khoản cho wordpress.
 
 Đăng nhập vào tài khoản quản trị MySQL là root sử dụng lệnh.
